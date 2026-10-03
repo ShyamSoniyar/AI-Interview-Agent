@@ -1,0 +1,27 @@
+# Dependencies
+**/node_modules/
+
+# Environment / secrets
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Builds
+**/dist/
+**/build/
+
+# Uploaded resumes (runtime artifacts)
+server/public/*
+!server/public/.gitkeep
+
+# Logs
+**/*.log
+**/npm-debug.log*
+logs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
